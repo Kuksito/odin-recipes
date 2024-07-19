@@ -1,0 +1,79 @@
+*, *:hover{
+    margin: 0;
+    padding: 0;
+}
+
+.main-body{
+    background-color: #a3a3a3;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-header{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #cbcbcb;
+}
+
+.title-main-page{
+    font-size: 48px;
+    margin: 20px;
+}
+
+.list-recipes{
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 40px;
+    max-width: 380px;
+}
+
+.list-link{
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 4px 15px;
+}
+
+.list-link:hover{
+    background-color: #878282;
+    border-color: #21555b;
+}
+
+.link-recipe{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.link-recipe:hover{
+    color: #a9ebff;
+}
+
+/* second page recipes */
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.container-title-img{
+  margin-left: 20px;
+}
+
+.title-recipe{
+    margin-bottom: 15px;
+}
+
+.container-title-img > img{
+    width: 200px;
+    height: 200px;
+}
